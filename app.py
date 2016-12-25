@@ -1,4 +1,4 @@
-#Baseline from Hartley's example code
+ #Baseline from Hartley's example code
 
 import os
 import sys
@@ -41,7 +41,7 @@ def webhook():
                     recipient_id = messaging_event["recipient"]["id"]  # the recipient's ID, which should be your page's facebook ID
                     message_text = messaging_event["message"]["text"]  # the message's text
 
-                    send_message(sender_id, "cool beans")
+                    send_message(sender_id, "wassup")
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
